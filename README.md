@@ -1,4 +1,4 @@
-# Fix some error from main repo https://github.com/0x1iii1ii/PPPwn-Luckfox
+# Custom and fix from main repo https://github.com/0x1iii1ii/PPPwn-Luckfox
 
 # PPPwn-Luckfox
 
