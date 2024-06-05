@@ -91,14 +91,11 @@ Open PuTTY click on serial, set `COM7` base on your serial-usb-converter and set
 ```sh
 sudo apt update
 sudo apt install git -y
-git clone https://github.com/0x1iii1ii/PPPwn-Luckfox.git
-cd PPPwn-Luckfox
-chmod +x pppwn
-chmod +x pppwn_script.sh
-sudo mv pppwn.service /etc/systemd/system/
-sudo chmod +x /etc/systemd/system/pppwn.service
-sudo systemctl enable pppwn.service
-sudo reboot
+cd /root/
+git clone https://github.com/thiendalat/PPPwn-PS4-LuckfoxPico.git
+cd PPPwn-PS4-LuckfoxPico
+sudo chmod 777 *
+cp -rf /root/PPPwn-PS4-LuckfoxPico/rc.local /etc/rc.local
 ```
 
 <br>
