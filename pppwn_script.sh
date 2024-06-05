@@ -20,9 +20,10 @@ cd /root/PPPwn-PS4-LuckfoxPico/
 # Check if the pppwn command was successful
 if [ $? -eq 0 ]; then
     echo "pppwn execution completed successfully."
-    systemctl stop pppwn.service
-	sleep 20
-	ifconfig eth0 down
+    #systemctl stop pppwn.service
+	#sleep 20
+	#ifconfig eth0 down
+ 	sudo poweroff
 else
     echo "pppwn execution failed. Exiting script."
     exit 1
