@@ -23,7 +23,7 @@ if [ $? -eq 0 ]; then
     #systemctl stop pppwn.service
 	#sleep 20
 	#ifconfig eth0 down
- 	sudo poweroff
+ 	sudo halt
 else
     echo "pppwn execution failed. Exiting script."
     exit 1
