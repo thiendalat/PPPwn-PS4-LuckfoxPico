@@ -1,3 +1,5 @@
+# Fix some error from main repo https://github.com/0x1iii1ii/PPPwn-Luckfox
+
 # PPPwn-Luckfox
 
 An alternative low-cost Linux board for exploits PS4 on V11.00 or below.<br>
