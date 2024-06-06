@@ -93,11 +93,11 @@ Open PuTTY click on serial, set `COM7` base on your serial-usb-converter and set
 ```sh
 sudo apt update
 sudo apt install git -y
-cd /boot/
+cd /root/
 git clone https://github.com/thiendalat/PPPwn-PS4-LuckfoxPico.git
 cd PPPwn-PS4-LuckfoxPico
 sudo chmod 777 *
-cp -rf /boot/PPPwn-PS4-LuckfoxPico/rc.local /etc/rc.local
+cp -rf /root/PPPwn-PS4-LuckfoxPico/rc.local /etc/rc.local
 ```
 
 <br>
