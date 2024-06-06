@@ -13,7 +13,7 @@ ifconfig eth0 up
 sleep 1
 
 # Change to the directory containing the pppwn executable
-cd /root/PPPwn-PS4-LuckfoxPico/
+cd /boot/PPPwn-PS4-LuckfoxPico/
 # Execute the pppwn command with the desired options
 ./pppwn --interface eth0 --fw 1100 --stage1 "stage1.bin" --stage2 "stage2.bin" -a -t 5 -nw -wap 2
 
